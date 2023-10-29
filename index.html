@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navigation">
+        <ul>
+          <li><a href="#" onclick="toggleMenu">Anasayfa</a></li>
+          <li><a href="#about" onclick="toggleMenu">Hakkımda</a></li>
+          <li><a href="#services" onclick="toggleMenu">Yetenekler</a></li>                   
+          <li><a href="#contact" onclick="toggleMenu">İletişim</a></li>
+        </ul>
+      </div>
+      <main class="main">
+        <div class="top-bar">
+          <a href="#" class="logo">Portfolio</a>
+          <div class="toggle"><i class="bx bx-menu-alt-right"></i></div>
+        </div>
+
+        <section class="banner" id="banner">
+          <div class="content">
+            
+            <h3>ENES ERAY AKSOY</h3>
+            <p>Websiteme Hoşgeldiniz!</p>
+            <a href="#" class="btn">CV İndir</a>
+            <ul class="social-media-buttons">
+              <li>
+                <a href="https://github.com/enesaksoy250"><i class="bx bxl-github"></i></a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/enes-aksoy-8b656226b/"><i class="bx bxl-linkedin-square"></i></a>
+              </li>
+              
+            </ul>
+          </div>
+        </section>
+
+        <section class="about adjust" id="about">
+          <div class="title">
+            <h2>Hakkımda</h2>
+          </div>
+          <div class="content">
+            <div class="text-box">
+              <p>
+                Merhaba! Ben Enes.Süleyman Demirel Üniversitesi Bilgisayar Mühendisliği Bölümü 3.sınıf öğrencisiyim.
+                Son bir senedir oyun geliştirme üzerine çalışıyorum.Oyun geliştirmeyi çok seviyorum.Yakında ilk oyunumu çıkartıcam.
+                Bunun dışında spor yapmayı,oyun oynamayı ve film izlemeyi severim.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="services adjust" id="services">
+          <div class="title">
+            <h2>Yetenekler</h2>
+            
+          </div>
+          <div class="content">
+            <div class="service-box">
+              <i class="bx bxl-flutter"></i>
+              <h2>Unity</h2>
+              <p>
+                Yaklaşık 1 yıldır Unity üzerinden oyun geliştirme öğrenmekteyim
+              </p>
+            </div>
+            <div class="service-box">
+              <i class="bx bxl-react"></i>
+              <h2>C</h2>
+              <p>
+                Üniversitenin ilk yılında öğrendiğim dil.
+              </p>
+            </div>
+            <div class="service-box">
+              <i class="bx bxl-figma"></i>
+              <h2>C#</h2>
+              <p>
+                Unity'de oyun geliştirirken kullandığım dil.İyi seviyede biliyorum.
+              </p>
+            </div>
+          </div>
+        </section>
+
+       
+
+        <section class="contact adjust" id="contact">
+            <div class="title">
+              <h2>Benimle İletişime Geç</h2>
+              
+            </div>
+            <div class="form-box">
+              <div class="row">
+                <input type="text" name="" placeholder="Ad" />
+                <input type="text" name="" placeholder="Soyad" />
+              </div>
+              <div class="row">
+                <input type="text" name="" placeholder="Email" />
+                <input type="text" name="" placeholder="Telefon" />
+              </div>
+              <div class="row2">
+                <textarea placeholder="Mesaj" id="" cols="30" rows="10"></textarea>
+              </div>
+              <div class="row2">
+                <input type="submit" value="Gönder" />
+              </div>
+            </div>
+          </section>
+
+          <div class="copyright">
+            <p>Copyright <i class='bx bx-copyright'></i> 2023 Enes Eray Aksoy.Tüm hakları saklıdır.</p>
+          </div>
+      </main>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
